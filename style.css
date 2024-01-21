@@ -1,11 +1,13 @@
 a{
   text-align: center;
   text-decoration: none;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-right: 0;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 body{
-    
+    background-color: burlywood;
 }
+
+

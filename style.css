@@ -11,3 +11,23 @@ body{
 }
 
 
+@media only screen and (max-width: 414px) {
+   header a {
+     color: red;
+   }
+}
+
+:root{
+  --c: black;
+}
+body :has(#checkbox:checked){
+  --c: deeppink;
+}
+h1{
+  color: var(--c);
+}
+
+
+
+
+

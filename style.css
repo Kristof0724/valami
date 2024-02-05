@@ -20,7 +20,7 @@ body{
 :root{
   --c: black;
 }
-body :has(#checkbox:checked){
+body:has(#checkbox:checked){
   --c: deeppink;
 }
 h1{
@@ -28,6 +28,10 @@ h1{
 }
 
 
-
+#settings {
+  font-weight: bold;
+  font-size: 40px;
+  float: right;
+}
 
 
